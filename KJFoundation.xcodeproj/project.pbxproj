@@ -28,6 +28,8 @@
 		BA7717CE1E8B9CA1006AE36B /* KJReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7717BC1E8B9CA1006AE36B /* KJReuseableView.swift */; };
 		BA7717CF1E8B9CA1006AE36B /* KJStoryboardInitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7717BD1E8B9CA1006AE36B /* KJStoryboardInitable.swift */; };
 		BA7717D01E8B9CA1006AE36B /* KJTimeOutOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7717BE1E8B9CA1006AE36B /* KJTimeOutOperation.swift */; };
+		BA7717D41E8B9E6F006AE36B /* KJUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7717D31E8B9E6F006AE36B /* KJUtils.swift */; };
+		BA7717D61E8B9F7D006AE36B /* KJNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7717D51E8B9F7D006AE36B /* KJNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		BA7717BC1E8B9CA1006AE36B /* KJReuseableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KJReuseableView.swift; sourceTree = "<group>"; };
 		BA7717BD1E8B9CA1006AE36B /* KJStoryboardInitable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KJStoryboardInitable.swift; sourceTree = "<group>"; };
 		BA7717BE1E8B9CA1006AE36B /* KJTimeOutOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KJTimeOutOperation.swift; sourceTree = "<group>"; };
+		BA7717D31E8B9E6F006AE36B /* KJUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KJUtils.swift; sourceTree = "<group>"; };
+		BA7717D51E8B9F7D006AE36B /* KJNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KJNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 		BA77176A1E8B99D4006AE36B /* KJFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				BA7717D21E8B9E6F006AE36B /* Utils */,
 				BA7717AA1E8B9CA1006AE36B /* Classes */,
 				BA7717AD1E8B9CA1006AE36B /* Extensions */,
 				BA7717B61E8B9CA1006AE36B /* Protocols */,
@@ -159,6 +164,7 @@
 		BA7717AA1E8B9CA1006AE36B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BA7717D51E8B9F7D006AE36B /* KJNavigationBar.swift */,
 				BA7717AB1E8B9CA1006AE36B /* KJGradientView.swift */,
 				BA7717AC1E8B9CA1006AE36B /* KJPlaceholderTextView.swift */,
 			);
@@ -189,6 +195,14 @@
 				BA7717BE1E8B9CA1006AE36B /* KJTimeOutOperation.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BA7717D21E8B9E6F006AE36B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BA7717D31E8B9E6F006AE36B /* KJUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,11 +346,13 @@
 				BA7717C81E8B9CA1006AE36B /* UIViewExt.swift in Sources */,
 				BA7717C41E8B9CA1006AE36B /* UIFontExt.swift in Sources */,
 				BA7717C71E8B9CA1006AE36B /* UIViewControllerExt.swift in Sources */,
+				BA7717D61E8B9F7D006AE36B /* KJNavigationBar.swift in Sources */,
 				BA7717BF1E8B9CA1006AE36B /* KJGradientView.swift in Sources */,
 				BA7717CF1E8B9CA1006AE36B /* KJStoryboardInitable.swift in Sources */,
 				BA77176E1E8B99D4006AE36B /* ViewController.swift in Sources */,
 				BA7717C11E8B9CA1006AE36B /* DateExt.swift in Sources */,
 				BA7717CE1E8B9CA1006AE36B /* KJReuseableView.swift in Sources */,
+				BA7717D41E8B9E6F006AE36B /* KJUtils.swift in Sources */,
 				BA7717C01E8B9CA1006AE36B /* KJPlaceholderTextView.swift in Sources */,
 				BA7717C31E8B9CA1006AE36B /* UIColorExt.swift in Sources */,
 				BA7717C21E8B9CA1006AE36B /* StringExt.swift in Sources */,

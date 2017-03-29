@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class KJGradientView: UIView {
 
   internal var gradientLayer: CAGradientLayer?
